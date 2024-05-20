@@ -22,7 +22,6 @@ function createBoxes(amount) {
   let size = 30;
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
-    console.log(box);
     box.style.backgroundColor = getRandomHexColor();
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
