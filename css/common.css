@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style-type: none;
+}
+button {
+  border-radius: 8px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  max-width: 1440px;
+}
+image {
+  display: block;
+}
+#categories h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+#categories li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  max-width: 100%;
+}
+.gallery-item {
+  width: 360px;
+  height: 300px;
+}
+#name-input input {
+  padding-left: 16px;
+  width: 360px;
+  border: 1px solid #808080;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: transparent;
+  background-color: transparent;
+}
+#name-output h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.login-form input {
+  margin-top: 8px;
+  width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 38px;
+  outline: transparent;
+  background-color: transparent;
+}
+.login-form button {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  background-color: #4e75ff;
+}
+.widget {
+  max-width: 345px;
+  max-height: 280px;
+}
+.widget p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 100px, 88px;
+  text-align: center;
+}
+
+.change-color {
+  padding: 8px 16px;
+  width: 148px;
+  background-color: #4e75ff;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
+#controls input {
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  min-width: 150px;
+  height: 40px;
+  padding: 8px, 0px, 8px, 72px;
+  text-align: center;
+}
+#controls button {
+  padding: 8px 16px;
+  width: 120px;
+}
+
+#controls [data-create] {
+  background-color: #4e75ff;
+}
+#controls [data-destroy] {
+  background-color: #ff4e4e;
+}
